@@ -1,0 +1,46 @@
+header{
+    background-color: darkcyan;
+    text-align: center;
+    color: white;
+    padding: 30px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+nav{            
+    
+    height: auto;
+    background-color: gray;
+    padding: 5px;
+}
+body{
+    border: 0.5px solid black;
+    border-radius: 5px;
+}
+nav ul>li{
+    display: inline;
+}
+nav>ul>li{
+    padding: 5px;
+    
+}
+article{
+    background: lightgray;
+    min-height: 200px;
+    padding: 5px;
+}
+footer{
+    min-height: 40px;
+    background: goldenrod;
+    padding: 10px;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+footer em{
+    align-items: center
+}
+
+a:link {
+    color: green;
+    background-color: transparent;
+    text-decoration: none;
+}
